@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import styled from 'styled-components'
 
 import { todos } from 'reducers/todos'
-import { Item } from './Item.js'
+import { Item } from './Item'
 
 const ListContainer = styled.ul`
   display: flex;
